@@ -17,11 +17,27 @@ Fruit.ai is a comprehensive health manager application that provides detailed in
 ### Backend (Flask)
 
 - **app/**
-  - **controllers/**: Route handlers and API endpoints (e.g., for managing FAQs and fruit details).
+  - **routes/**: Route handlers and API endpoints (e.g., for managing FAQs and fruit details).
   - **models/**: Database models and schemas.
   - **utils/**: Utility functions and helpers.
   - **__init__.py**: Initializes the Flask application and configures the database connection.
   - **config.py**: Configuration settings for the Flask application, including database URI and other settings.
+  - **app.py**: Entrypoint for backend.
+
+
+## Login Details
+
+The following credentials to log in:
+
+- **Email**: `user@example.com`
+- **Password**: `password`
+
+These credentials are hardcoded into the login page for demonstration purposes.
+
+## Hosted Link
+
+- **Frontend (Vercel)**: [https://fruit-ai-frontend.vercel.app](https://fruit-ai-frontend.vercel.app)
+
 
 ## Setup and Run Instructions
 
@@ -83,7 +99,7 @@ Fruit.ai is a comprehensive health manager application that provides detailed in
 
 5. Run the Flask application:
     ```bash
-    python run.py
+    python app.py
     ```
 
 6. Open your browser and navigate to `http://localhost:5000` to access the backend API.
