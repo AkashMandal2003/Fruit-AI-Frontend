@@ -103,5 +103,5 @@ Fruit.ai is a comprehensive health manager application that provides detailed in
 
 ## Contact
 
-For any questions or support, please reach out to [your-email@example.com](mailto:iakashman8653@gmail.com).
+For any questions or support, please reach out to [iakashman8653@gmail.com](mailto:iakashman8653@gmail.com).
 
